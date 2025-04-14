@@ -430,6 +430,7 @@ ELPP_INTERNAL_DEBUGGING_OUT_INFO << ELPP_INTERNAL_DEBUGGING_MSG(internalInfoStre
 #if defined(ELPP_QT_LOGGING)
 // For logging Qt based classes & templates
 #   include <QString>
+#   include <QStringRef>
 #   include <QByteArray>
 #   include <QVector>
 #   include <QList>
